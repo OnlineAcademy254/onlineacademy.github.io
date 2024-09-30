@@ -1,0 +1,113 @@
+
+.logo-intro{
+   
+    border-radius: 15px;
+    box-shadow: -20px 15px 15px rgba(0,0,0,0.4);
+}
+
+h1{
+    font-size: 1.2rem;
+}
+
+.examsview{
+    text-decoration: none;
+    color: hsl(7, 94%, 43%);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.examsview:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.logoForm{
+    border-radius: 50%;
+    margin-top: 5px;
+    backdrop-filter: -20px 25px 20px rgba(0,0,0,0.6);
+    width: 150px;
+}
+
+/*form one page styling*/
+.menubar li a{
+ color: brown;
+ font-size: 1.2rem;
+ 
+}
+
+.english{
+    width: 50px;
+}
+
+.bookcontent{
+    width: 50px;
+    height: 50px;
+}
+
+.topical{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.text{
+    font-size: 3rem;
+    color: rgb(236, 5, 63);
+    font-weight: bold;
+    text-decoration: underline;
+    
+    letter-spacing: 4px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+                typing 10s ,
+                cursor .4s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor{
+    50% {border-color: transparent;}
+    100%{
+        border-radius: 0px;
+    }
+}
+
+@keyframes typing {
+    from{width: 0;}
+}
+
+
+@media all and (max-width:896px){
+    .text {
+        font-size: 1rem;
+        align-items: center;
+        letter-spacing: 2px;
+        font-family: monospace;
+        border-right: 5px solid;
+        width: 100vmin;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 10s ,
+                    cursor .4s step-end infinite alternate;
+    }
+}
+
+@media all and (max-width:720px){
+    .text {
+        font-size: 1rem;
+        align-items: center;
+        letter-spacing: 2px;
+        font-family: monospace;
+        border-right: 5px solid;
+        width: 100vmin;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 10s,
+                    cursor .4s step-end infinite alternate;
+    }
+}
