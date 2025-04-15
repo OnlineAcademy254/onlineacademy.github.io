@@ -12,6 +12,16 @@
 
 */
 
+#more{
+    display: none;
+}
+#btnmore{
+    padding: 5px 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 header{
     background-color: #262626;
     
